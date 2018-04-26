@@ -7,3 +7,7 @@ that has the header, navigation, a sidebar,
 and informational texts and/or links
 
 */
+
+ header h1 {
+   font-family: 'ABeeZee', sans-serif;
+ }
