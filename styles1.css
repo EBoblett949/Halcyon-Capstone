@@ -14,3 +14,11 @@ and informational texts and/or links
 =======
 /*Fonts*/
 /*ABeeZee: font-family: 'ABeeZee', sans-serif;*/
+
+* {
+  outline: 1px solid red;
+}
+
+body header ul {
+  padding-left: 40px;
+}
