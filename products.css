@@ -1,0 +1,24 @@
+
+
+/**{outline:  1px solid red ;}*/
+
+h1#collections{
+  text-align: center;
+}
+
+ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+h1#rain{
+  text-align: center;
+}
+
+h1#snow{
+  text-align: center;
+}
+
+h1#shine{
+  text-align: center;
+}
