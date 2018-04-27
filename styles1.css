@@ -11,14 +11,15 @@ and informational texts and/or links
  header h1 {
    font-family: 'ABeeZee', sans-serif;
  }
-=======
-/*Fonts*/
-/*ABeeZee: font-family: 'ABeeZee', sans-serif;*/
 
-* {
+ {
   outline: 1px solid red;
 }
 
-body header ul {
-  padding-left: 40px;
+ul li {
+  padding-top: 5px;
 }
+ ul a#noDecor {
+   text-decoration: none;
+   color: black;
+ }
