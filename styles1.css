@@ -8,5 +8,18 @@ and informational texts and/or links
 
 */
 
-/*Fonts*/
-/*ABeeZee: font-family: 'ABeeZee', sans-serif;*/
+ header h1 {
+   font-family: 'ABeeZee', sans-serif;
+ }
+
+ {
+  outline: 1px solid red;
+}
+
+ul li {
+  padding-top: 5px;
+}
+ ul a#noDecor {
+   text-decoration: none;
+   color: black;
+ }
