@@ -63,3 +63,8 @@ and informational texts and/or links
  .col-lg-4{
   text-align: center;
  }
+
+ section#ourStory img {
+   float: left;
+   padding: 10px;
+ }
