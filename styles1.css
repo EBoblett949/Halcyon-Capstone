@@ -12,9 +12,7 @@ and informational texts and/or links
    font-family: 'ABeeZee', sans-serif;
  }
 
-* {
-  outline: 1px solid red;
- }
+/** {outline: 1px solid red;}*/
 
  ul li {
   padding-top: 5px;
