@@ -3,60 +3,84 @@
   Feather 1: R:36 G:209 B:248
   Feather 2: R:51 G:57 B:195
   Feather 3: R:21 G:141 B:144*/
-html{
-font-size: 18px;
 
-
+html {
+  font-size: 22px;
+  color: white;
 }
-body{
+/*==============
+     Bodies 
+==============*/
+body#index {
   width: 100%;
   height: 100%;
-  background: url(images/beachpg1.jpg) right top/ cover no-repeat ;
+  background: url(images/beachdark.jpg) right top/ cover no-repeat;
+}
+body#aboutus {
+  width: 100%;
+  height: 100%;
+  background: url(images/beachdark.jpg) right top/ cover no-repeat;
+}
+body#products {
+  width: 100%;
+  height: 50%;
+  background: url(images/beachdark.jpg) right top/ cover no-repeat;
+}
+/*=================
+   Index Header
+=================*/
+header {
+  width: 100%;
+  height: 20%;
+  padding-bottom: 2%;
+  color: white;
 }
 
-header{
- width: 100%;
- height: 20%;
- padding-bottom: 2%;
- color: white;
- 
+header h1 {
+  font-family: 'ABeeZee', sans-serif;
 }
 
-div#navheader{
+/*=================
+    Index Divs
+==================*/
+div#navheader {
   padding-left: 2%;
   padding-right: 2%;
 }
-div#navheader>ul#links{
-margin-left: auto;
-color: white;
+
+div#navheader>ul#links {
+  margin-left: auto;
+  color: white;
 }
 
-div#pg1part1{
-color: white;
-
-
-  margin-left:  auto;
+div#pg1part1 {
+  color: white;
+  margin-left: auto;
   margin-right: auto;
-text-align: center;
-padding-top: 5%;
-padding-bottom: 10%;
-
-  
- 
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 10%;
 }
 
-div#pg1part2{
-  color: rgb(247, 219, 39);
-  margin-left:  auto;
-  margin-right: auto;
-text-align: center;
+p#mission, h2#mission {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
 }
-div#pg1part3{
-  margin-left:  auto;
+
+div#pg1part2 {
+  color: white;
+  margin-left: auto;
   margin-right: auto;
-color: white;
+  text-align: center;
 }
-h2{
+
+div#pg1part3 {
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+h2 {
   text-align: center;
   font: 24em;
-  
