@@ -3,5 +3,5 @@ window.addEventListener("load", function(){
 });
 
 function submit() {
-  window.alert("ok");
+  window.alert("thanks for your input.");
 }
