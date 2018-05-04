@@ -8,27 +8,31 @@
     <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
     <link rel="icon" href="images/halcyonlogo.png">
   </head>
-  <body>
-    <div class="container">
+  <body >
+    <div>
        <header>
-        <ul class="nav list-inline justify-content-end">
-          <li><a class="nav-link" href="index.html">home</a></li>
-          <li><a class="nav-link" href="products.html">products</a></li>
-          <li><a class="nav-link" href="about.html">about us</a></li>
-          <li><a class="nav-link" href="contact.html">contact us</a></li>
-          <a href="index.html"><img src="images/halcyonlogo.png" alt="halcyonlogo.png" width="50px" height="50px"></a>
-          <a id="noDecor" href="index.html"><h1>halcyon</h1></a>
-        </ul>
+         <div class="row">
+
+          <a class="col-4" href="index.html"><img src="images/halcyonlogo.png" alt="halcyonlogo.png" width="50px" height="50px"></a>
+          <ul class="col-5" id="noDecor" href="index.html"><h1 class="">Halcyon</h1></ul>
+
+        <ul id="links" class="nav list-inline justify-content-end">
+          <li  ><a class="nav-link" href="index.html">home</a></li>
+          <li><a class="nav-link col-1" href="products.html">products</a></li>
+          <li><a class="nav-link col- clearfix" href="about.html">about us</a></li>
+          <li><a class="nav-link col-" href="contact.html">contact us</a></li>
+          </ul>
+        </div>
        </header>
      </div>
-    <div class="container">
+    <div >
       <!-- section with a mession statement, has a background video playing -->
      <section id="first" class="justify-content-center">
        <h2 class="justify-content-center">our mission</h2>
        <p id="mission">halcyon fashion company is a non-profit organization aimed at offering high-quality, unique, and trendy fashion using one of the earth's most abundant resources: ocean trash. our goal is to bring back the quality of life that our marine creatures once enjoyed, while giving our customers the satisfaction of knowing they are making a difference.</p>
      </section>
     </div>
-    <div class="container">
+    <div class=" bg-info text-white">
       <!-- section featuring news regarding the company -->
      <section id="second" class="second">
       <h2>updates</h2>
@@ -39,7 +43,7 @@
       </ul>
      </section>
     </div>
-    <div class="container">
+    <div >
       <!-- section featuring new items, featured items, etc -->
      <section class="third">
       <h2>new gear</h2>
@@ -62,7 +66,7 @@
      </section>
     </div>
 
-    <div class="container">
+    <div>
       <!-- simple footer containing copyright information and links to social media -->
      <footer>
      <ul class="nav list-inline justify-content-center">
