@@ -54,10 +54,13 @@ div#navheader>ul#links {
 }
 
 div#pg1part1 {
+  
   color: white;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 5%;
   padding-bottom: 10%;
 }
@@ -67,6 +70,7 @@ p#mission, h2#mission {
   font-family: 'Montserrat', sans-serif;
   font-weight: lighter;
 }
+
 
 div#pg1part2 {
   color: white;
@@ -84,4 +88,14 @@ div#pg1part3 {
 h2 {
   text-align: center;
   font: 24em;
+}
+footer {
+  color: white;
+  padding: 1%;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+footer p{
+  
 }
