@@ -1,7 +1,3 @@
-window.addEventListener("load", function(){
-    document.getElementById("submit").onclick = submit;
+document.getElementById("submit")("click", function(){
+  alert("ok");
 });
-
-function submit() {
-  window.alert("thanks for your input.");
-}
