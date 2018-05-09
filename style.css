@@ -6,29 +6,60 @@
 
 html {
   font-size: 22px;
- 
 }
 /*==============
-     Bodies 
+     Bodies
 ==============*/
-body#index {
-  width: 100%;
-  height: 100%;
-  background: url(images/beachdark.jpg) right top/ cover no-repeat;
+
+p, h1, h2, h3, h4, h5, h6, a, li, ul, ol, div {
+  font-family: 'Montserrat', sans-serif;
+
 }
+
+body {
+  /*width: 100%;
+  height: 100%;*/
+  background: url(images/beachdark.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left top;
+  background-size: 100%;
+}
+
 body#aboutus {
-  width: 100%;
-  height: 100%;
-  background: url(images/beachdark.jpg) right top/ cover no-repeat;
+  /*width: 100%;
+  height: 100%;*/
+  background: url(images/beachdark.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left top;
+  background-size: 100%;
 }
+
 body#products {
-  width: 100%;
-  height: 50%;
-  background: url(images/beachdark.jpg) right top/ cover no-repeat;
+  /*width: 100%;
+  height: 50%;*/
+  background: url(images/beachdark.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left top;
+  background-size: 100%;
 }
+
+body#contact {
+  /*width: 100%;
+  height: 50%;*/
+  background: url(images/beachdark.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left top;
+  background-size: 100%;
+}
+
 /*=================
    Index Header
 =================*/
+
 header {
   width: 100%;
   height: 20%;
@@ -53,6 +84,11 @@ div#navheader>ul#links {
   color: white;
 }
 
+div#navheader ul#links li {
+  /*width: 120px;*/
+  height: 40px;
+}
+
 div#pg1part1 {
   
   color: white;
@@ -71,12 +107,23 @@ p#mission, h2#mission {
   font-weight: lighter;
 }
 
+<<<<<<< HEAD
+=======
+p#mission {
+  font-size: 26px;
+  height: 250px;
+}
+>>>>>>> master
 
 div#pg1part2 {
-  color: white;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(192, 192, 192, 1.0));
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  /*color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;*/
 }
 
 div#pg1part3 {
@@ -89,13 +136,79 @@ h2 {
   text-align: center;
   font: 24em;
 }
-footer {
-  color: white;
-  padding: 1%;
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
+
+header h1 {
+  font-family: 'ABeeZee', sans-serif;
 }
-footer p{
-  
+
+/** {outline: 1px solid red;}*/
+
+ul li {
+ padding-top: 5px;
+}
+
+p#mission {
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+ul li.nav-link {
+  padding-right: 155px;
+  padding-left: 155px;
+}
+
+ul a#noDecor {
+  text-decoration: none;
+  color: black;
+}
+
+footer p {
+  padding-left: 360px;
+  padding-right: 360px;
+}
+
+section.third div#container ul li {
+  border: 25px;
+}
+
+section.third div#container ul li p {
+  padding-left: 25px;
+}
+
+section.third div#container ul li img {
+   display: block;
+   border: 25px;
+}
+
+h4{
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.col-lg-4{
+ text-align: center;
+}
+
+h1#title {
+  font-size: 64px;
+  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div#navheader ul#links li:hover {
+  -webkit-filter: opacity(0.5);
+  filter: opacity(0.5);
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: rgb(227, 150, 0);
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(192, 192, 192);
+  height: 110px;
 }
