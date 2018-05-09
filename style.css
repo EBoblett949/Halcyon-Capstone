@@ -200,3 +200,9 @@ div#navheader ul#links li:hover {
   transition: .3s;
   color: rgb(227, 150, 0);
 }
+
+footer {
+  text-align: center;
+  background-color: rgb(192, 192, 192);
+  height: 100px;
+}
