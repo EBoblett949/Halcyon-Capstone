@@ -6,29 +6,38 @@
 
 html {
   font-size: 22px;
- 
 }
 /*==============
-     Bodies 
+     Bodies
 ==============*/
+
+p, h1, h2, h3, h4, h5, h6, a, li, ul, ol, div {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
 body#index {
   width: 100%;
   height: 100%;
   background: url(images/beachdark.jpg) right top/ cover no-repeat;
 }
+
 body#aboutus {
   width: 100%;
   height: 100%;
   background: url(images/beachdark.jpg) right top/ cover no-repeat;
 }
+
 body#products {
   width: 100%;
   height: 50%;
   background: url(images/beachdark.jpg) right top/ cover no-repeat;
 }
+
 /*=================
    Index Header
 =================*/
+
 header {
   width: 100%;
   height: 20%;
@@ -84,4 +93,66 @@ div#pg1part3 {
 h2 {
   text-align: center;
   font: 24em;
+}
+
+header h1 {
+  font-family: 'ABeeZee', sans-serif;
+}
+
+/** {outline: 1px solid red;}*/
+
+ul li {
+ padding-top: 5px;
+}
+
+p#mission {
+  text-align: center;
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+ul li.nav-link {
+  padding-right: 155px;
+  padding-left: 155px;
+}
+
+ul a#noDecor {
+  text-decoration: none;
+  color: black;
+}
+
+footer p {
+  padding-left: 360px;
+  padding-right: 360px;
+}
+
+section.third div#container ul li {
+  border: 25px;
+}
+
+section.third div#container ul li p {
+  padding-left: 25px;
+}
+
+section.third div#container ul li img {
+   display: block;
+   border: 25px;
+}
+
+h4{
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.col-lg-4{
+ text-align: center;
+}
+
+h1#title {
+  font-size: 64px;
+  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
 }
