@@ -99,6 +99,7 @@ div#pg1part1 {
   padding-right: 5%;
   padding-top: 5%;
   padding-bottom: 10%;
+  height: 750px;
 }
 
 p#mission, h2#mission {
@@ -108,10 +109,18 @@ p#mission, h2#mission {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+h2#mission {
+  font-size: 54px;
+}
+
+>>>>>>> master
 p#mission {
-  font-size: 26px;
+  font-size: 32px;
   height: 250px;
+  line-height: 185%;
 }
 >>>>>>> master
 
@@ -120,6 +129,7 @@ div#pg1part2 {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  height: 500px;
   /*color: white;
   margin-left: auto;
   margin-right: auto;
@@ -210,5 +220,43 @@ div#navheader ul#links li:hover {
 footer {
   text-align: center;
   background-color: rgb(192, 192, 192);
-  height: 110px;
+  height: 120px;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+div#pg1part2 ul li a img {
+  -webkit-filter: grayscale(99%);
+  filter: grayscale(99%);
+  /* -webkit-transition: .5s;
+  transition: .5s; */
+}
+
+div#pg1part2 ul li a img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+footer ul li a img {
+  -webkit-filter: grayscale(99%);
+  filter: grayscale(99%);
+  /* -webkit-transition: .5s;
+  transition: .5s; */
+}
+
+footer ul li a img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+
+footer ul li {
+  padding-left: 20px;
+  padding-right: 20px;
 }
