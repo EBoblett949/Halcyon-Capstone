@@ -91,7 +91,7 @@ div#navheader ul#links li {
 }
 
 div#pg1part1 {
-  
+
   color: white;
   margin-left: auto;
   margin-right: auto;
@@ -219,6 +219,7 @@ footer {
   text-align: center;
   background-color: rgb(192, 192, 192);
   height: 130px;
+  width: 100%;
 }
 
 footer p {
@@ -258,4 +259,3 @@ footer ul li {
   padding-left: 20px;
   padding-right: 20px;
 }
-
