@@ -211,7 +211,7 @@ div#navheader ul#links li:hover {
 footer {
   text-align: center;
   background-color: rgb(192, 192, 192);
-  height: 120px;
+  height: 130px;
 }
 
 footer p {
@@ -239,12 +239,12 @@ footer ul li a img {
   transition: .5s; */
 }
 
-footer ul li a img:hover {
+/* footer ul li a img:hover {
   -webkit-filter: grayscale(0%);
   filter: none;
   -webkit-transition: .5s;
   transition: .5s;
-}
+} */
 
 
 footer ul li {
