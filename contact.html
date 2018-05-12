@@ -6,15 +6,17 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="bootstrap.min.css">
-    <script type="text/javascript" src="contact.js"></script>
     <link href="https://fonts.googleapis.com/css?family=ABeeZee" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Montserrat');
+    </style>
 
     <link rel="icon" href="images/icons/halcyonlogo.png">
   </head>
   <body id="contact">
 
-    <div class="container">
+    <div class="container-fluid" id="header">
       <header>
         <div id="navheader" class="row">
 
@@ -22,15 +24,14 @@
          <ul class="col-5 p-3" id="noDecor" href="index.html"><h1 class="">halcyon</h1></ul>
 
        <ul id="links" class="nav p-3">
-         <!-- change black to white after adding a bkg -->
-         <li ><a class="nav-link text-#" href="index.html">Home</a></li>
-         <li><a class="nav-link text-#" href="products.html">Products</a></li>
-         <li><a class="nav-link text-#" href="about.html">About us</a></li>
-         <li><a class="nav-link text-#" href="contact.html">Contact us</a></li>
+         <li ><a class="nav-link text-white" href="index.html">Home</a></li>
+         <li><a class="nav-link text-white" href="products.html">Products</a></li>
+         <li><a class="nav-link text-white" href="about.html">About</a></li>
+         <li><a class="nav-link text-white" href="contact.html">Contact</a></li>
          </ul>
        </div>
       </header>
-     </div>
+    </div>
 
 
     <!-- get involved -->
@@ -74,36 +75,46 @@
       <img src="images/birb1.jpg" width="20%" height="20%" id="image">
       <h3>VP of Expenses, VP of Charities</h1>
       <p>lil description</p>
-      <a href="mailto:email2@mail.com">charli.@halcyon.com</a>
+      <a href="mailto:email2@mail.com">charli.schneider@halcyon.com</a>
     </div>
 
     <div class="informed3">
       <img src="images/birb1.jpg" width="20%" height="20%" id="image">
-      <h3>Informed 3</h1>
-      <p>lil description</p>
-      <a href="mailto:email3@mail.com">halcyon@mail.com</a>
+      <h3>Designer</h1>
+      <p>For inquiries about </p>
+      <a href="mailto:email3@mail.com">tiffany.altagracia@halcyon.com</a>
     </div>
 </div>
 
-  <div class="form">
-    <form name="contact" class="contact" action="index.html" method="post">
-      <input type="text" name="name" value="" placeholder="Name">
-      <input type="text" name="email" value="" placeholder="Example@email.com" pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$">
-      <textarea name="comments" rows="8" cols="80" placeholder="Questions, Comments, Concerns"></textarea>
-      <button type="button" name="button" id="submit">submit</button>
-    </form>
-  </div>
-
-    <div class="container">
-      <!-- simple footer containing copyright information and links to social media -->
-     <footer>
-     <ul class="nav list-inline justify-content-center">
-       <li class="nav-item"><a href="http://www.facebook.com/halcyonfashion"><img src="images/icons/facebook.png" width="30px" height="30px" alt="facebook" ></a></li>
-       <li class="nav-item"><a href="http://www.twitter.com/halcyonfashion"><img src="images/icons/twitter.png" width="30px" height="30px" alt="twitter"></a></li>
-       <li class="nav-item"><a href="http://www.instagram.com/halcyonfashion"><img src="images/icons/insta.png" width="30px" height="30px" alt="instagram"></a></li>
-     </ul>
-     <p>Copyright 2018 Halcyon Fashion All Rights Reserved.</p>
-     </footer>
+<form id="form">
+  <div class="">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" value="" placeholder="John, Doe" required>
     </div>
+    <div class="">
+      <label for="email">Email</label>
+      <input type="text" id="email" name="email" value="" placeholder="Name123@email.com" required pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$">
+    </div>
+    <div class="">
+      <input type="button" name="sub" id="sub" value="Submit">
+    </div>
+</form>
+
+<div id="pg1part2" class="text-white">
+</div>
+
+<!-- simple footer containing copyright information and links to social media -->
+<div>
+  <footer>
+  <ul class="nav list-inline justify-content-center">
+    <li class="nav-item"><a href="http://www.facebook.com/halcyonfashion"><img src="images/icons/facebook.png" width="40px" height="40px" alt="facebook" ></a></li>
+    <li class="nav-item"><a href="http://www.twitter.com/halcyonfashion"><img src="images/icons/twitter.png" width="40px" height="40px" alt="twitter"></a></li>
+    <li class="nav-item"><a href="http://www.instagram.com/halcyonfashion"><img src="images/icons/insta.png" width="40px" height="40px" alt="instagram"></a></li>
+  </ul>
+  <br />
+  <p class="text-white">Copyright 2018 Halcyon Fashion All Rights Reserved.</p>
+  </footer>
+</div>
+<script type="text/javascript" src="contact.js"></script>
   </body>
 </html>

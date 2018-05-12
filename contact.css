@@ -1,36 +1,4 @@
-.column {
-    float: left;
-    width: 50%;
-    padding: 10px;
-    height: 300px;
-}
 
-#title{
-  text-align: center;
-  font-size: 4.5em;
-}
-
-#container{
-  display: block;
-  float: left;
-}
-
-#informed{
-  display: block;
-  float: left;
-  width: 50%;
-}
-
-#involved{
-  display: block;
-  float: right;
-  width: 50%;
-}
-
-form{
-  text-align: center;
-  margin: auto;
-}
 
 
 

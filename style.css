@@ -16,20 +16,21 @@ p, h1, h2, h3, h4, h5, h6, a, li, ul, ol, div {
 
 }
 
-body {
-  /*width: 100%;
-  height: 100%;*/
+body#index {
+  width: 100%;
+  height: 100%;
   background: url(images/beachdark.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: left top;
+  background-position: right top
+  ;
   background-size: 100%;
 }
 
 body#aboutus {
-  /*width: 100%;
-  height: 100%;*/
-  background: url(images/beachdark.jpg);
+  width: 100%;
+  height: 100%;
+  background: url(images/beachlight.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left top;
@@ -37,9 +38,9 @@ body#aboutus {
 }
 
 body#products {
-  /*width: 100%;
-  height: 50%;*/
-  background: url(images/beachdark.jpg);
+  width: 100%;
+  height: 100%;
+  background: url(images/beachlight.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left top;
@@ -47,9 +48,9 @@ body#products {
 }
 
 body#contact {
-  /*width: 100%;
-  height: 50%;*/
-  background: url(images/beachdark.jpg);
+  width: 100%;
+  height: 100%;
+  background: url(images/beachlight.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left top;
@@ -90,10 +91,13 @@ div#navheader ul#links li {
 }
 
 div#pg1part1 {
+  
   color: white;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 5%;
   padding-bottom: 10%;
   height: 750px;
@@ -105,15 +109,18 @@ p#mission, h2#mission {
   font-weight: lighter;
 }
 
+
 h2#mission {
   font-size: 54px;
 }
+
 
 p#mission {
   font-size: 32px;
   height: 250px;
   line-height: 185%;
 }
+
 
 div#pg1part2 {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(192, 192, 192, 1.0));
@@ -251,3 +258,4 @@ footer ul li {
   padding-left: 20px;
   padding-right: 20px;
 }
+
