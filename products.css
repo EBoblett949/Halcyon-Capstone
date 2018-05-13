@@ -10,14 +10,14 @@ header {
   height: 20%;
   padding-bottom: 2%;
   color: white;
-  
+
 }
 
 header h1 {
   font-family: 'ABeeZee', sans-serif;
 }
 section.products{
- 
+
   display: flex;
   flex-wrap: wrap;
   margin-left: auto;
@@ -43,10 +43,20 @@ section.products{
 }
 h5 , h6{
   text-align: center;
+  color: black;
+}
+
+div#pg1part2.unknown {
+  height: 150px;
+background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(192, 192, 192, .5));
+}
+
+footer {
+  background-color: rgba(192, 192, 192, .5);
 }
 
 @media only screen and (max-width: 600px) {
-  .pbox { 
+  .pbox {
       display: block;
       width: 100%;
   }
