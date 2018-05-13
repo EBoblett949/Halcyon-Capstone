@@ -149,7 +149,7 @@ body#contact div#involved a:hover, body#contact div#informed a:hover {
 }
 
 div#form form {
-  align-content: center;
+  /* align-content: center; */
   width: 80%;
   /* padding-left: 400px; */
   text-align: center;
