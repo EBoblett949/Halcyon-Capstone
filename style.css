@@ -140,12 +140,15 @@ div#pg1part2.contact {
 }
 
 body#contact div#involved a, body#contact div#informed a  {
-  color: rgb(0, 3, 255);
+  color: blue;
+  text-decoration: none;
 }
 
 body#contact div#involved a:hover, body#contact div#informed a:hover {
-  color: white;
-  text-decoration: none;
+  -webkit-filter: opacity(0.4);
+  filter: opacity(0.4);
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 div#form form {
@@ -158,7 +161,7 @@ div#form form {
 }
 
 div#form form textarea {
-  background: url("halcyonlogo.png");
+  background: none;
 }
 
 div#pg1part3 {
