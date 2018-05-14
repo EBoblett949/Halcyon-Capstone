@@ -24,7 +24,7 @@ body#index {
   background-attachment: fixed;
   background-position: right top
   ;
-  background-size: 100%;
+  background-size: cover;
 }
 
 body#aboutus {
@@ -34,7 +34,7 @@ body#aboutus {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left top;
-  background-size: 100%;
+  background-size: cover;
 }
 
 body#products {
@@ -44,7 +44,7 @@ body#products {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left top;
-  background-size: 100%;
+  background-size: cover;
 }
 
 body#contact {
@@ -54,7 +54,7 @@ body#contact {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left top;
-  background-size: 100%;
+  background-size: cover;
 }
 
 /*=================
