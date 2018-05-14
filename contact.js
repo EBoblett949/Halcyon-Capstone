@@ -22,10 +22,10 @@ function validate() {
   var email = document.getElementById("email");
 
   if (name = "") {
-    alert("Please enter your name.");
+    alert("Please fill out this field.");
   }
 
   if (email = "") {
-    alert("Please enter your email.");
+    alert("Please fill out this field.");
   }
 }
