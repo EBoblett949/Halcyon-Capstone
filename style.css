@@ -157,6 +157,10 @@ div#form form {
   margin-right: auto;
 }
 
+div#form form textarea {
+  background: url("halcyonlogo.png");
+}
+
 div#pg1part3 {
   margin-left: auto;
   margin-right: auto;
