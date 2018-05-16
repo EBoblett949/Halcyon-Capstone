@@ -11,6 +11,10 @@ html {
      Bodies
 ==============*/
 
+/** {
+  outline: 2px solid red;
+}*/
+
 p, h1, h2, h3, h4, h5, h6, a, li, ul, ol, div {
   font-family: 'Montserrat', sans-serif;
 
@@ -101,6 +105,10 @@ div#aboutus.container img {
   /*padding-bottom: 5px;*/
   padding-right: 15px;
   /*padding-left: 15px;*/
+}
+
+article#story p {
+  clear: right;
 }
 
 div#pg1part1 {
@@ -248,6 +256,10 @@ h1#title {
   font-size: 64px;
   font-weight: lighter;
   font-family: 'Montserrat', sans-serif;
+}
+
+h1#storyTitle {
+  text-align: center;
 }
 
 div#navheader ul#links li:hover {
