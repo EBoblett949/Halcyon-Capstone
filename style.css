@@ -112,7 +112,6 @@ article#story p {
 }
 
 div#pg1part1 {
-
   color: white;
   margin-left: auto;
   margin-right: auto;
@@ -323,4 +322,9 @@ footer ul li {
 img.carousel{
   border: 2.5px solid white;
   border-radius: 3%;
+}
+
+#cart{
+  display: flex;
+  align-items: flex-end;
 }
