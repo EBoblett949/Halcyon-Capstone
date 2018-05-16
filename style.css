@@ -104,7 +104,6 @@ div#aboutus.container img {
 }
 
 div#pg1part1 {
-
   color: white;
   margin-left: auto;
   margin-right: auto;
@@ -313,6 +312,7 @@ img.carousel{
   border-radius: 3%;
 }
 
-#add{
-  
+#cart{
+  display: flex;
+  align-items: flex-end;
 }
