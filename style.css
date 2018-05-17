@@ -162,6 +162,10 @@ body#products div.pbox {
   justify-content: center;
 }
 
+body#products h5, body#products h6 {
+  padding-right: 60px;
+}
+
 h2#mission {
   font-size: 54px;
 }
