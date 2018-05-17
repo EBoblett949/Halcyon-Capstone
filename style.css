@@ -117,7 +117,7 @@ div#aboutus.container img {
 
 div#aboutus.container img.bio {
   float: left;
-  padding-top: 15px;
+  /*padding-top: 15px;*/
   padding-bottom: 15px;
   padding-right: 15px;
   padding-left: 15px;
