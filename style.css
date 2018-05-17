@@ -1,8 +1,9 @@
-/*Color values for halcyon:
-  Body: R:219 G:41 B:44
-  Feather 1: R:36 G:209 B:248
-  Feather 2: R:51 G:57 B:195
-  Feather 3: R:21 G:141 B:144*/
+/*
+   Color values for halcyon:
+   Body: R:219 G:41 B:44
+   Feather 1: R:36 G:209 B:248
+   Feather 2: R:51 G:57 B:195
+   Feather 3: R:21 G:141 B:144 */
 
 html {
   font-size: 22px;
@@ -26,8 +27,7 @@ body#index {
   background: url(images/beachdark.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: right top
-  ;
+  background-position: right top;
   background-size: cover;
 }
 
@@ -121,8 +121,8 @@ div#aboutus.container img.bio {
   padding-bottom: 15px;
   padding-right: 15px;
   padding-left: 15px;
-  border: 2px solid white;
-  border-radius: 3%;
+  /* border: 2px solid white;
+  border-radius: 3%; */
 }
 
 div.bio p {
