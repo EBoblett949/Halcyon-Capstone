@@ -77,6 +77,14 @@ header h1 {
   font-family: 'ABeeZee', sans-serif;
 }
 
+header a.col-1.p-3 img {
+  padding-right: 0px;
+}
+
+header ul h1 {
+  padding-left: 0px;
+}
+
 /*=================
  Index(Page 1) Divs
 ==================*/
@@ -101,14 +109,30 @@ div#aboutus.container {
 
 div#aboutus.container img {
   float: left;
-  padding-top: 5px;
-  /*padding-bottom: 5px;*/
+  padding-top: 15px;
+  padding-bottom: 15px;
   padding-right: 15px;
-  /*padding-left: 15px;*/
+  padding-left: 15px;
 }
 
-article#story p {
+div#aboutus.container img.bio {
+  float: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  border: 2px solid white;
+  border-radius: 3%;
+}
+
+div.bio p {
+  padding-left: 15px;
+  margin-right: 15px;
+}
+
+article.story p {
   clear: right;
+  text-align: center;
 }
 
 div#pg1part1 {
@@ -216,9 +240,9 @@ ul li.nav-link {
   padding-left: 155px;
 }
 
-ul a#noDecor {
+a#noDecor {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 footer p {
@@ -239,11 +263,7 @@ section.third div#container ul li img {
    border: 25px;
 }
 
-h4{
-  text-align: center;
-}
-
-h2 {
+h2, h3, h4{
   text-align: center;
 }
 
