@@ -54,10 +54,13 @@
 
     function remove() {
       var value = document.getElementById("amount");
-      var add = document.getElementsByName("add");
+      var remove = document.getElementsByName("remove");
       // alert(value);
       if (true) {
         x--;
+        if (x < 0) {
+          return;
+        }
       }
       value.innerHTML = x;
     }
@@ -76,7 +79,7 @@
           <h6 class="text-white">$89.99</h6>
         </div id="add">
         <input type="submit" name="add" value="Add to cart" onclick="cart()">
-        <input type="submit" name="add" value="Remove item" onclick="remove()">
+        <input type="submit" name="remove" value="Remove item" onclick="remove()">
       </div>
       <div class="pbox col-sm">
         <div class="pimage col-sm">
@@ -87,7 +90,7 @@
           <h6 class="text-white">$49.99</h6>
         </div id="add">
         <input type="submit" name="add" value="Add to cart" onclick="cart()">
-        <input type="submit" name="add" value="Remove item" onclick="remove()">
+        <input type="submit" name="remove" value="Remove item" onclick="remove()">
       </div>
       <div class="pbox col-sm">
         <div class="pimage col-sm">
@@ -98,7 +101,7 @@
           <h6 class="text-white">$89.99</h6>
         </div id="add">
         <input type="submit" name="add" value="Add to cart" onclick="cart()">
-        <input type="submit" name="add" value="Remove item" onclick="remove()">
+        <input type="submit" name="remove" value="Remove item" onclick="remove()">
       </div>
     </div>
 
@@ -113,7 +116,7 @@
             <h6 class="text-white">$44.99</h6>
           </div id="add">
             <input type="submit" name="add" value="Add to cart" onclick="cart()">
-            <input type="submit" name="add" value="Remove item" onclick="remove()">
+            <input type="submit" name="remove" value="Remove item" onclick="remove()">
         </div>
         <div class="pbox col-sm">
           <div class="pimage col-sm">
@@ -124,7 +127,7 @@
             <h6 class="text-white">$49.99</h6>
           </div id="add">
           <input type="submit" name="add" value="Add to cart" onclick="cart()">
-          <input type="submit" name="add" value="Remove item" onclick="remove()">
+          <input type="submit" name="remove" value="Remove item" onclick="remove()">
         </div>
         <div class="pbox col-sm">
           <div class="pimage col-sm">
@@ -135,7 +138,7 @@
             <h6 class="text-white">$89.99</h6>
           </div id="add">
           <input type="submit" name="add" value="Add to cart" onclick="cart()">
-          <input type="submit" name="add" value="Remove item" onclick="remove()">
+          <input type="submit" name="remove" value="Remove item" onclick="remove()">
         </div>
       </div>
 
@@ -151,7 +154,7 @@
             <h6 class="text-white">$19.99</h6>
           </div id="add">
           <input type="submit" name="add" value="Add to cart" onclick="cart()">
-          <input type="submit" name="add" value="Remove item" onclick="remove()">
+          <input type="submit" name="remove" value="Remove item" onclick="remove()">
         </div>
         <div class="pbox col-sm">
           <div class="pimage col-sm">
@@ -162,7 +165,7 @@
             <h6 class="text-white">$19.99</h6>
           </div id="add">
           <input type="submit" name="add" value="Add to cart" onclick="cart()">
-          <input type="submit" name="add" value="Remove item" onclick="remove()">
+          <input type="submit" name="remove" value="Remove item" onclick="remove()">
         </div>
         <div class="pbox col-sm">
           <div class="pimage col-sm">
@@ -173,7 +176,7 @@
             <h6 class="text-white">$19.99</h6>
           </div id="add">
           <input type="submit" name="add" value="Add to cart" onclick="cart()">
-          <input type="submit" name="add" value="Remove item" onclick="remove()">
+          <input type="submit" name="remove" value="Remove item" onclick="remove()">
         </div>
         <!-- second line -->
       </section>
@@ -187,7 +190,7 @@
               <h6 class="text-white">$19.99</h6>
             </div id="add">
             <input type="submit" name="add" value="Add to cart" onclick="cart()">
-            <input type="submit" name="add" value="Remove item" onclick="remove()">
+            <input type="submit" name="remove" value="Remove item" onclick="remove()">
           </div>
           <div class="pbox col-sm">
             <div class="pimage col-sm">
@@ -198,7 +201,7 @@
               <h6 class="text-white">$34.99</h6>
             </div id="add">
             <input type="submit" name="add" value="Add to cart" onclick="cart()">
-            <input type="submit" name="add" value="Remove item" onclick="remove()">
+            <input type="submit" name="remove" value="Remove item" onclick="remove()">
           </div>
           <div class="pbox col-sm">
             <div class="pimage col-sm">
@@ -209,7 +212,7 @@
               <h6 class="text-white">$34.99</h6>
             </div id="add">
             <input type="submit" name="add" value="Add to cart" onclick="cart()">
-            <input type="submit" name="add" value="Remove item" onclick="remove()">
+            <input type="submit" name="remove" value="Remove item" onclick="remove()">
           </div>
           <!-- second line -->
         </section>
@@ -228,7 +231,7 @@
               <h6 class="text-white">$99.99</h6>
             </div id="add">
             <input type="submit" name="add" value="Add to cart" onclick="cart()">
-            <input type="submit" name="add" value="Remove item" onclick="remove()">
+            <input type="submit" name="remove" value="Remove item" onclick="remove()">
           </div>
           <div class="pbox col-sm">
             <div class="pimage col-sm">
@@ -239,7 +242,7 @@
               <h6 class="text-white">$54.99</h6>
             </div id="add">
             <input type="submit" name="add" value="Add to cart" onclick="cart()">
-            <input type="submit" name="add" value="Remove item" onclick="remove()">
+            <input type="submit" name="remove" value="Remove item" onclick="remove()">
           </div>
           <div class="pbox col-sm">
             <div class="pimage col-sm">
@@ -250,7 +253,7 @@
               <h6 class="text-white">$99.99</h6>
             </div id="add">
             <input type="submit" name="add" value="Add to cart" onclick="cart()">
-            <input type="submit" name="add" value="Remove item" onclick="remove()">
+            <input type="submit" name="remove" value="Remove item" onclick="remove()">
           </div>
         </section>
         <!-- second line -->
@@ -264,7 +267,7 @@
                 <h6 class="text-white">$54.99</h6>
               </div id="add">
               <input type="submit" name="add" value="Add to cart" onclick="cart()">
-              <input type="submit" name="add" value="Remove item" onclick="remove()">
+              <input type="submit" name="remove" value="Remove item" onclick="remove()">
             </div>
             <div class="pbox col-sm">
               <div class="pimage col-sm">
@@ -275,7 +278,7 @@
                 <h6 class="text-white">$79.99</h6>
               </div id="add">
               <input type="submit" name="add" value="Add to cart" onclick="cart()">
-              <input type="submit" name="add" value="Remove item" onclick="remove()">
+              <input type="submit" name="remove" value="Remove item" onclick="remove()">
             </div>
             <div class="pbox col-sm">
               <div class="pimage col-sm">
@@ -286,7 +289,7 @@
                 <h6 class="text-white">$79.99</h6>
               </div id="add">
               <input type="submit" name="add" value="Add to cart" onclick="cart()">
-              <input type="submit" name="add" value="Remove item" onclick="remove()">
+              <input type="submit" name="remove" value="Remove item" onclick="remove()">
             </div>
           </section>
        </div>
