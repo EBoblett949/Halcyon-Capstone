@@ -139,6 +139,10 @@ body#products h1 {
   text-align: center;
 }
 
+body#products h1#name {
+  width: 200px;
+}
+
 div#pg1part1 {
   color: white;
   margin-left: auto;
