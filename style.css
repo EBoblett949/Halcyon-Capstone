@@ -135,6 +135,10 @@ article.story p {
   text-align: center;
 }
 
+body#products h1 {
+  text-align: center;
+}
+
 div#pg1part1 {
   color: white;
   margin-left: auto;
