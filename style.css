@@ -117,7 +117,7 @@ div#aboutus.container img {
 
 div#aboutus.container img.bio {
   float: left;
-  padding-top: 15px;
+  /*padding-top: 15px;*/
   padding-bottom: 15px;
   padding-right: 15px;
   padding-left: 15px;
@@ -160,6 +160,10 @@ p#mission, h2#mission {
 body#products div.pbox {
   align-items: center;
   justify-content: center;
+}
+
+body#products h5, body#products h6 {
+  padding-right: 60px;
 }
 
 h2#mission {
