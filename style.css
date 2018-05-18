@@ -143,6 +143,19 @@ body#products h1#name {
   width: 200px;
 }
 
+body#products input {
+  background-color: rgba(0,0,0,0);
+  color: black;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border: 2px solid black;
+}
+
+body#products input:hover {
+  background-color: black;
+  color: white;
+}
+
 div#pg1part1 {
   color: white;
   margin-left: auto;
@@ -167,7 +180,7 @@ body#products div.pbox {
 }
 
 body#products h5, body#products h6 {
-  padding-right: 80px;
+  padding-right: 170px;
 }
 
 h2#mission {
