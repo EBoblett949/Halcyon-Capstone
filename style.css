@@ -177,10 +177,11 @@ p#mission, h2#mission {
 body#products div.pbox {
   align-items: center;
   justify-content: center;
+  padding-left: 90px;
 }
 
 body#products h5, body#products h6 {
-  padding-right: 170px;
+  padding-right: 90px;
 }
 
 h2#mission {
