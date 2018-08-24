@@ -1,4 +1,3 @@
-/*media queries*/
 function myFunction(size) {
     if (size.matches) { // If media query matches
         document.body.style.backgroundColor = ""/*add a style here*/;
@@ -32,7 +31,13 @@ function validate() {
 
 
 // New Code ===============================================================================================================
- 
-if (alive) {
-  dont;
+// I had to delete all the javascript I had becuase it did not work
+var formValidity = true;
+
+function validateForm(evt) {
+  if (evt.preventDefault) {
+    evt.preventDefault()
+  } else {
+    
+  }
 }
